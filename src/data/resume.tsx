@@ -161,7 +161,7 @@ export const DATA = {
   projects: [
     {
       title: "StationeryWala",
-      href: "#",
+      href: "https://www.stationerywala.shop/",
       dates: "Completed",
       active: true,
       description:
@@ -175,7 +175,7 @@ export const DATA = {
     },
     {
       title: "GEC Barmer Website",
-      href: "#",
+      href: "https://college-website-pd4czgj4p-aarin-mahalas-projects.vercel.app/",
       dates: "Completed",
       active: true,
       description:
@@ -214,7 +214,7 @@ export const DATA = {
     },
     {
       title: "Flashcard Engine",
-      href: "#",
+      href: "https://flashcard-engine-bay.vercel.app/",
       dates: "Completed",
       active: true,
       description:
@@ -252,7 +252,7 @@ export const DATA = {
     },
     {
       title: "MAD Duck Game",
-      href: "#",
+      href: "https://madduck.vercel.app/",
       dates: "Ongoing",
       active: true,
       description:

@@ -12,7 +12,7 @@ import { DATA } from "@/data/resume";
 export default function Navbar() {
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-4 z-30">
-      <Dock className="z-50 pointer-events-auto relative h-14 p-2 w-fit mx-auto flex gap-2 rounded-3xl bg-card/35 backdrop-blur-2xl border border-white/15 dark:border-white/10 shadow-[0_0_30px_-10px_rgba(0,0,0,0.35)]">
+      <Dock className="z-50 pointer-events-auto relative h-14 p-2 w-fit mx-auto flex gap-2 rounded-3xl bg-card/15 backdrop-blur-2xl border border-white/15 dark:border-white/10 shadow-[0_0_30px_-10px_rgba(0,0,0,0.35)]">
         {DATA.navbar.map((item) => {
           const isExternal = item.href.startsWith("http");
           return (
@@ -25,7 +25,7 @@ export default function Navbar() {
                   aria-label={item.label}
                   title={item.label}
                 >
-                  <DockIcon className="rounded-3xl cursor-pointer size-full p-0 text-muted-foreground transition-colors bg-background/25 dark:bg-background/15 backdrop-blur-xl border border-white/15 dark:border-white/10 shadow-sm supports-[hover:hover]:hover:text-foreground supports-[hover:hover]:hover:bg-background/35 supports-[hover:hover]:dark:hover:bg-background/25 active:bg-background/40 dark:active:bg-background/30">
+                  <DockIcon className="rounded-3xl cursor-pointer size-full p-0 text-muted-foreground transition-colors bg-background/15 dark:bg-background/10 backdrop-blur-xl border border-white/15 dark:border-white/10 shadow-sm supports-[hover:hover]:hover:text-foreground supports-[hover:hover]:hover:bg-background/25 supports-[hover:hover]:dark:hover:bg-background/20 active:bg-background/35 dark:active:bg-background/25">
                     <item.icon className="size-full rounded-sm overflow-hidden object-contain" />
                   </DockIcon>
                 </a>
@@ -60,7 +60,7 @@ export default function Navbar() {
                     aria-label={social.name}
                     title={social.name}
                   >
-                    <DockIcon className="rounded-3xl cursor-pointer size-full p-0 text-muted-foreground transition-colors bg-background/25 dark:bg-background/15 backdrop-blur-xl border border-white/15 dark:border-white/10 shadow-sm supports-[hover:hover]:hover:text-foreground supports-[hover:hover]:hover:bg-background/35 supports-[hover:hover]:dark:hover:bg-background/25 active:bg-background/40 dark:active:bg-background/30">
+                    <DockIcon className="rounded-3xl cursor-pointer size-full p-0 text-muted-foreground transition-colors bg-background/15 dark:bg-background/10 backdrop-blur-xl border border-white/15 dark:border-white/10 shadow-sm supports-[hover:hover]:hover:text-foreground supports-[hover:hover]:hover:bg-background/25 supports-[hover:hover]:dark:hover:bg-background/20 active:bg-background/35 dark:active:bg-background/25">
                       <IconComponent className="size-full rounded-sm overflow-hidden object-contain" />
                     </DockIcon>
                   </a>
@@ -82,7 +82,7 @@ export default function Navbar() {
         />
         <Tooltip>
           <TooltipTrigger asChild>
-            <DockIcon className="rounded-3xl cursor-pointer size-full p-0 text-muted-foreground transition-colors bg-background/25 dark:bg-background/15 backdrop-blur-xl border border-white/15 dark:border-white/10 shadow-sm supports-[hover:hover]:hover:text-foreground supports-[hover:hover]:hover:bg-background/35 supports-[hover:hover]:dark:hover:bg-background/25 active:bg-background/40 dark:active:bg-background/30">
+            <DockIcon className="rounded-3xl cursor-pointer size-full p-0 text-muted-foreground transition-colors bg-background/15 dark:bg-background/10 backdrop-blur-xl border border-white/15 dark:border-white/10 shadow-sm supports-[hover:hover]:hover:text-foreground supports-[hover:hover]:hover:bg-background/25 supports-[hover:hover]:dark:hover:bg-background/20 active:bg-background/35 dark:active:bg-background/25">
               <ModeToggle className="size-full cursor-pointer" />
             </DockIcon>
           </TooltipTrigger>
