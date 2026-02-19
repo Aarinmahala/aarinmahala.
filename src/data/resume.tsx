@@ -63,7 +63,7 @@ export const DATA = {
         name: "X",
         url: "https://x.com/aarinmahala",
         icon: Icons.x,
-        navbar: true,
+        navbar: false,
       },
       Instagram: {
         name: "Instagram",
