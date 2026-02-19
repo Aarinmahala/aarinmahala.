@@ -18,7 +18,7 @@ export const DATA = {
   location: "Jaipur, Rajasthan, India",
   locationLink: "https://www.google.com/maps/place/Jaipur,+Rajasthan",
   description:
-    "Founder & Developer @ stationerywala.shop • Computer Science (BE) student.  Interested in Artificial Intelligence , Machine Learning , and emerging technologies..",
+    "Founder & Developer    @stationerywala.shop • Computer Science (BE) student.  Interested in Artificial Intelligence , Machine Learning , and emerging technologies..",
   summary:
     "Second-year Computer Science student with a strong foundation in programming and algorithms. Passionate about software development, data analysis, and emerging technologies. Proficient in languages such as Python and Java, I enjoy tackling challenging projects and collaborating with peers. Seeking internship opportunities to apply my skills in real-world scenarios and further my understanding of the tech industry.\n\n**Certifications**\n- C Programming the Basics\n- Complete Python 2024 For Absolute Beginners\n- Accenture Nordics - Software Engineering Job Simulation\n- Deloitte Australia - Data Analytics Job Simulation\n- Practical HTML, CSS, JS: 10 Real-World Projects for Practice",
   // Used for the profile avatar (falls back to `initials` if empty)
@@ -41,7 +41,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "aarinmahala@gmail.com",
@@ -63,7 +62,7 @@ export const DATA = {
         name: "X",
         url: "https://x.com/aarinmahala",
         icon: Icons.x,
-        navbar: false,
+        navbar: true,
       },
       Instagram: {
         name: "Instagram",
