@@ -28,8 +28,11 @@ export default function Page() {
     hasGreen && hasBlue ? afterGreen.split(bluePhrase) : ["", ""];
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
-      <section id="hero">
+      <section id="hero" aria-labelledby="hero-title">
         <div className="mx-auto w-full max-w-2xl space-y-8">
+          <h1 id="hero-title" className="sr-only">
+            Aarin Mahala – Founder of stationerywala.shop | Portfolio
+          </h1>
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
             <div className="gap-2 flex flex-col order-2 md:order-1">
               <BlurFadeText

@@ -25,13 +25,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://aarinmahala.vercel.app"),
   title: {
-    default: DATA.name,
-    template: `%s | ${DATA.name}`,
+    default: "Aarin Mahala – Founder of stationerywala.shop",
+    template: `%s | Aarin Mahala – Founder of stationerywala.shop`,
   },
-  description: DATA.description,
+  description:
+    "Official portfolio of Aarin Mahala – founder of stationerywala.shop and Computer Science (AI & ML) student from Jaipur, Rajasthan, India. Explore projects, work experience, hackathons and contact details.",
   openGraph: {
-    title: DATA.name,
-    description: DATA.description,
+    title: "Aarin Mahala – Founder of stationerywala.shop",
+    description:
+      "Discover the work, projects and journey of Aarin Mahala, founder of stationerywala.shop and developer from Jaipur, Rajasthan, India.",
     url: "https://aarinmahala.vercel.app",
     siteName: DATA.name,
     locale: "en_US",
@@ -49,8 +51,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: DATA.name,
-    description: DATA.description,
+    title: "Aarin Mahala – Founder of stationerywala.shop",
+    description:
+      "Portfolio of Aarin Mahala – founder of stationerywala.shop, developer and Computer Science student from Jaipur, Rajasthan, India.",
     images: DATA.avatarUrl ? [DATA.avatarUrl] : [],
   },
 };
@@ -86,6 +89,24 @@ export default function RootLayout({
             <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6">
               {children}
             </div>
+            <footer className="relative z-10 max-w-2xl mx-auto px-6 pb-6 text-xs text-muted-foreground flex flex-col gap-1">
+              <p>
+                © {new Date().getFullYear()} Aarin Mahala – Founder of{" "}
+                <a
+                  href="https://www.stationerywala.shop/"
+                  className="underline underline-offset-2 hover:text-foreground"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  stationerywala.shop
+                </a>{" "}
+                · Jaipur, Rajasthan, India.
+              </p>
+              <p>
+                This site showcases my projects, hackathons and experience as a
+                developer and entrepreneur.
+              </p>
+            </footer>
             <SpeedInsights />
             <Analytics />
             <Navbar />

@@ -18,9 +18,9 @@ export const DATA = {
   location: "Jaipur, Rajasthan, India",
   locationLink: "https://www.google.com/maps/place/Jaipur,+Rajasthan",
   description:
-    "Founder & Developer  @ stationerywala.shop • Computer Science (BE) student.  Interested in Artificial Intelligence , Machine Learning , and emerging technologies.",
+    "Founder & Developer @ stationerywala.shop • Computer Science (AI & ML) student from Jaipur, Rajasthan, India. I build modern web experiences, e-commerce products and tools that help students and businesses.",
   summary:
-    "Second-year Computer Science student with a strong foundation in programming and algorithms. Passionate about software development, data analysis, and emerging technologies. Proficient in languages such as Python and Java, I enjoy tackling challenging projects and collaborating with peers. Seeking internship opportunities to apply my skills in real-world scenarios and further my understanding of the tech industry.\n\n**Certifications**\n- C Programming the Basics\n- Complete Python 2024 For Absolute Beginners\n- Accenture Nordics - Software Engineering Job Simulation\n- Deloitte Australia - Data Analytics Job Simulation\n- Practical HTML, CSS, JS: 10 Real-World Projects for Practice",
+    "I’m **Aarin Mahala**, a Computer Science (AI & ML) student and the founder of [stationerywala.shop](https://www.stationerywala.shop/) — an online stationery e‑commerce startup from Rajasthan, India. I focus on building fast, accessible web applications, especially e‑commerce and education products.\n\nAs a young entrepreneur and developer, I enjoy working with **React, Next.js, Node.js, TypeScript, MongoDB, HTML, CSS and JavaScript**. My experience includes launching and growing stationerywala.shop, building college and business websites, and shipping real-world projects that people actually use.\n\nI’m particularly interested in **artificial intelligence, machine learning, data analysis and modern web development**. I’m looking for opportunities where I can contribute as a developer, learn from experienced teams and continue growing stationerywala.shop.\n\n**Certifications**\n- C Programming the Basics\n- Complete Python 2024 For Absolute Beginners\n- Accenture Nordics - Software Engineering Job Simulation\n- Deloitte Australia - Data Analytics Job Simulation\n- Practical HTML, CSS, JS: 10 Real-World Projects for Practice",
   // Used for the profile avatar (falls back to `initials` if empty)
   avatarUrl:
     "https://res.cloudinary.com/dzd29tlsf/image/upload/v1771501911/WhatsApp_Image_2026-02-19_at_5.18.15_PM_sodlgm.jpg",
@@ -62,7 +62,7 @@ export const DATA = {
         name: "X",
         url: "https://x.com/aarinmahala",
         icon: Icons.x,
-        navbar: true,
+        navbar: false,
       },
       Instagram: {
         name: "Instagram",
@@ -74,7 +74,7 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:aarinmahala@gmail.com",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
       WhatsApp: {
         name: "WhatsApp",
