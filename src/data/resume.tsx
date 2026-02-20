@@ -170,7 +170,7 @@ export const DATA = {
         { type: "Website", href: "https://www.stationerywala.shop/", icon: <Icons.globe className="size-3" /> },
       ],
       image: "https://res.cloudinary.com/dzd29tlsf/image/upload/v1771500080/Screenshot_2026-02-19_164955_gqsjic.png",
-      video: "",
+      video: "https://res.cloudinary.com/dzd29tlsf/video/upload/v1771619462/WhatsApp_Video_2026-02-21_at_1.58.41_AM_tfjeqv.mp4",
     },
     {
       title: "GEC Barmer Website",
@@ -186,7 +186,7 @@ export const DATA = {
       ],
       image: "https://res.cloudinary.com/dzd29tlsf/image/upload/v1771500081/Screenshot_2026-02-19_164847_hvxyhk.png",
      
-      video: "",
+      video: "https://res.cloudinary.com/dzd29tlsf/video/upload/v1771619466/WhatsApp_Video_2026-02-21_at_1.58.42_AM_1_xlpkwq.mp4",
     },
     {
       title: "GYM Management System",
@@ -209,7 +209,7 @@ export const DATA = {
         },
       ],
       image: "https://res.cloudinary.com/dzd29tlsf/image/upload/v1771500080/Screenshot_2026-02-19_153601_k6h2ku.png",
-      video: "",
+      video: "https://res.cloudinary.com/dzd29tlsf/video/upload/v1771619477/WhatsApp_Video_2026-02-21_at_1.58.43_AM_peftz2.mp4",
     },
     {
       title: "Flashcard Engine",
@@ -224,7 +224,7 @@ export const DATA = {
         { type: "Website", href: "https://flashcard-engine-bay.vercel.app/", icon: <Icons.globe className="size-3" /> },
       ],
       image: "https://res.cloudinary.com/dzd29tlsf/image/upload/v1771500080/Screenshot_2026-02-19_164810_stj5vt.png",
-      video: "",
+      video: "https://res.cloudinary.com/dzd29tlsf/video/upload/v1771619461/WhatsApp_Video_2026-02-21_at_1.58.39_AM_svabqr.mp4",
     },
     {
       title: "Rajasthan Virtual Shiksha",
@@ -247,7 +247,7 @@ export const DATA = {
         },
       ],
       image: "https://res.cloudinary.com/dzd29tlsf/image/upload/v1771500080/Screenshot_2026-02-19_153838_e0o59o.png",
-      video: "",
+      video: "https://res.cloudinary.com/dzd29tlsf/video/upload/v1771619479/WhatsApp_Video_2026-02-21_at_1.58.42_AM_lg1dtw.mp4",
     },
     {
       title: "MAD Duck Game",
@@ -262,7 +262,7 @@ export const DATA = {
         { type: "Website", href: "https://madduck.vercel.app/", icon: <Icons.globe className="size-3" /> },
       ],
       image: "https://res.cloudinary.com/dzd29tlsf/image/upload/v1771500080/Screenshot_2026-02-19_165036_wzj0sf.png",
-      video: "",
+      video: "https://res.cloudinary.com/dzd29tlsf/video/upload/v1771619461/WhatsApp_Video_2026-02-21_at_1.58.35_AM_avq9c3.mp4",
     },
   ],
 
