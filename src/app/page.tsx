@@ -27,37 +27,20 @@ export default function Page() {
   const [between, afterBlue] =
     hasGreen && hasBlue ? afterGreen.split(bluePhrase) : ["", ""];
   return (
-    <main
-      className="min-h-dvh flex flex-col gap-14 relative"
-      itemScope
-      itemType="https://schema.org/Person"
-    >
-      <meta itemProp="name" content={DATA.name} />
-      <meta itemProp="url" content={DATA.url} />
-      <meta itemProp="image" content={DATA.avatarUrl} />
-      <meta itemProp="jobTitle" content="Founder & Developer" />
-      <meta itemProp="addressLocality" content="Jaipur" />
-      <meta itemProp="addressRegion" content="Rajasthan" />
-      <meta itemProp="addressCountry" content="India" />
-
-      <section id="hero" aria-labelledby="hero-title">
+    <main className="min-h-dvh flex flex-col gap-14 relative">
+      <section id="hero" aria-label="Introduction">
         <div className="mx-auto w-full max-w-2xl space-y-8">
-          <h1 id="hero-title" className="sr-only">
-            Aarin Mahala – Founder of stationerywala.shop | Portfolio & Software Developer
-          </h1>
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
             <div className="gap-2 flex flex-col order-2 md:order-1">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
-              />
+              <h1 className="text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl">
+                <BlurFadeText
+                  delay={BLUR_FADE_DELAY}
+                  yOffset={8}
+                  text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
+                />
+              </h1>
               <BlurFade delay={BLUR_FADE_DELAY}>
-                <div
-                  className="text-muted-foreground max-w-[600px] md:text-lg lg:text-xl"
-                  itemProp="description"
-                >
+                <div className="text-muted-foreground max-w-[600px] md:text-lg lg:text-xl">
                   {hasGreen && hasBlue ? (
                     <>
                       {beforeGreen}
@@ -125,21 +108,28 @@ export default function Page() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-x-3 justify-between group"
+                  aria-label={`Visit ${education.school} website`}
                 >
                   <div className="flex items-center gap-x-3 flex-1 min-w-0">
                     {education.logoUrl ? (
                       <img
                         src={education.logoUrl}
-                        alt={education.school}
+                        alt={`${education.school} logo`}
                         className="size-8 md:size-10 p-1 rounded-full shadow-sm ring-1 ring-white/10 overflow-hidden object-contain flex-none bg-background/30 dark:bg-background/20 backdrop-blur-xl border border-white/20 dark:border-white/10"
                       />
                     ) : (
-                      <div className="size-8 md:size-10 p-1 rounded-full shadow-sm ring-1 ring-white/10 bg-background/30 dark:bg-background/20 backdrop-blur-xl border border-white/20 dark:border-white/10 flex-none" />
+                      <div
+                        aria-hidden="true"
+                        className="size-8 md:size-10 p-1 rounded-full shadow-sm ring-1 ring-white/10 bg-background/30 dark:bg-background/20 backdrop-blur-xl border border-white/20 dark:border-white/10 flex-none"
+                      />
                     )}
                     <div className="flex-1 min-w-0 flex flex-col gap-0.5">
                       <div className="font-semibold leading-none flex items-center gap-2">
                         {education.school}
-                        <ArrowUpRight className="h-3.5 w-3.5 text-muted-foreground opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" aria-hidden />
+                        <ArrowUpRight
+                          className="h-3.5 w-3.5 text-muted-foreground opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200"
+                          aria-hidden="true"
+                        />
                       </div>
                       <div className="font-sans text-sm text-muted-foreground">
                         {education.degree}
@@ -167,9 +157,15 @@ export default function Page() {
               <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 10 + id * 0.09}>
                 <div className="group relative rounded-xl h-9 w-fit px-4 flex items-center gap-2 border border-white/15 dark:border-white/10 bg-white/10 dark:bg-white/5 backdrop-blur-md shadow-sm shadow-black/5 ring-1 ring-white/15 dark:ring-white/10 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md hover:shadow-black/10">
                   {/* liquid-glass highlight */}
-                  <div className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-white/20 via-white/5 to-transparent opacity-80" />
+                  <div
+                    aria-hidden="true"
+                    className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-white/20 via-white/5 to-transparent opacity-80"
+                  />
                   {skill.icon && (
-                    <skill.icon className="relative size-4 rounded overflow-hidden object-contain transition-transform duration-200 ease-out group-hover:-translate-y-0.5" />
+                    <skill.icon
+                      aria-hidden="true"
+                      className="relative size-4 rounded overflow-hidden object-contain transition-transform duration-200 ease-out group-hover:-translate-y-0.5"
+                    />
                   )}
                   <span className="text-foreground text-sm font-medium">{skill.name}</span>
                 </div>

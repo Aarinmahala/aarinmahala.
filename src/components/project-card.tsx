@@ -64,28 +64,59 @@ export function ProjectCard({
       )}
     >
       <div className="relative shrink-0">
-        <Link
-          href={href || "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block"
-        >
-          {video ? (
-            <video
-              src={video}
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-48 object-cover bg-background/30 dark:bg-background/20"
-            />
-          ) : image ? (
-            <ProjectImage src={image} alt={title} />
-          ) : (
-            <div className="w-full h-48 bg-background/30 dark:bg-background/20 backdrop-blur-xl border-b border-white/10" />
-          )}
-        </Link>
-        <div className="pointer-events-none absolute inset-0 bg-linear-to-br from-white/15 via-transparent to-transparent dark:from-white/10" />
+        {href ? (
+          <Link
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            aria-label={`View ${title} project details`}
+          >
+            {video ? (
+              <video
+                src={video}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-48 object-cover bg-background/30 dark:bg-background/20"
+                aria-label={`${title} preview video`}
+              />
+            ) : image ? (
+              <ProjectImage src={image} alt={`${title} preview`} />
+            ) : (
+              <div
+                aria-hidden="true"
+                className="w-full h-48 bg-background/30 dark:bg-background/20 backdrop-blur-xl border-b border-white/10"
+              />
+            )}
+          </Link>
+        ) : (
+          <div>
+            {video ? (
+              <video
+                src={video}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-48 object-cover bg-background/30 dark:bg-background/20"
+                aria-label={`${title} preview video`}
+              />
+            ) : image ? (
+              <ProjectImage src={image} alt={`${title} preview`} />
+            ) : (
+              <div
+                aria-hidden="true"
+                className="w-full h-48 bg-background/30 dark:bg-background/20 backdrop-blur-xl border-b border-white/10"
+              />
+            )}
+          </div>
+        )}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-linear-to-br from-white/15 via-transparent to-transparent dark:from-white/10"
+        />
         {links && links.length > 0 && (
           <div className="absolute top-2 right-2 flex flex-wrap gap-2">
             {links.map((link, idx) => (
@@ -94,13 +125,14 @@ export function ProjectCard({
                 key={idx}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`${title} ${link.type}`}
                 onClick={(e) => e.stopPropagation()}
               >
                 <Badge
                   className="flex items-center gap-1.5 text-xs bg-black text-white hover:bg-black/90"
                   variant="default"
                 >
-                  {link.icon}
+                  <span aria-hidden="true">{link.icon}</span>
                   {link.type}
                 </Badge>
               </Link>
@@ -114,15 +146,17 @@ export function ProjectCard({
             <h3 className="font-semibold">{title}</h3>
             <time className="text-xs text-muted-foreground">{dates}</time>
           </div>
-          <Link
-            href={href || "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
-            aria-label={`Open ${title}`}
-          >
-            <ArrowUpRight className="h-4 w-4" aria-hidden />
-          </Link>
+          {href && (
+            <Link
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
+              aria-label={`Open ${title}`}
+            >
+              <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          )}
         </div>
         <div className="text-xs flex-1 prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert">
           <Markdown>{description}</Markdown>

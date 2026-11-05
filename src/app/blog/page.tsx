@@ -75,7 +75,7 @@ export default async function BlogPage({
                             {post.title}
                             <ChevronRight
                               className="ml-1 inline-block size-4 stroke-3 text-muted-foreground opacity-0 -translate-x-2 transition-all duration-200 group-hover:opacity-100 group-hover:translate-x-0"
-                              aria-hidden
+                              aria-hidden="true"
                             />
                           </span>
                         </p>

@@ -1,0 +1,42 @@
+# Aarin Mahala
+
+> Founder of stationerywala.shop, Full-Stack Developer, and Computer Science (AI & ML) student based in Jaipur, Rajasthan, India. Tech collaborator with Indian Army (2nd Lancers).
+
+Aarin Mahala builds modern web experiences, e-commerce platforms, and embedded IoT solutions. He founded stationerywala.shop and collaborated with the Indian Army (2nd Lancers - Gardner's Horse) on an indigenous GSM-GPS drone tracking module.
+
+## Core Links
+
+- [Official Portfolio](https://aarinmahala.vercel.app): Personal website, projects, and contact info.
+- [stationerywala.shop](https://www.stationerywala.shop): Online stationery e-commerce startup founded by Aarin Mahala.
+- [GitHub Profile](https://github.com/aarinmahala): Open-source repositories, projects, and code contributions.
+- [LinkedIn Profile](https://www.linkedin.com/in/aarin-mahala-a48724274): Professional background, certifications, and work experience.
+- [X Profile](https://x.com/aarinmahala): Updates and thoughts on software engineering and AI.
+
+## Key Projects
+
+- [StationeryWala](https://www.stationerywala.shop): Fast, responsive e-commerce platform for student stationery built with Next.js, Node.js, and MongoDB.
+- [GEC Barmer College Website](https://college-website-pd4czgj4p-aarin-mahalas-projects.vercel.app): Modern portal for Government Engineering College Barmer.
+- [Flashcard Engine](https://flashcard-engine-bay.vercel.app): Spaced repetition study application with Pomodoro timer.
+- [GYM Management System](https://gym-management-system-phi.vercel.app): Role-based management dashboard with billing and member tracking.
+- [Rajasthan Virtual Shiksha](https://rajasthan-virtual-shiksha.vercel.app): Offline-capable PWA educational platform for remote students.
+- [MAD Duck Game](https://madduck.vercel.app): Interactive HTML5 Canvas browser game.
+
+## Experience & Collaboration
+
+- [Indian Army Tech Collaboration](https://aarinmahala.vercel.app#work): 45-day defense project developing a Smart GSM-GPS Drone Tracking & Recording module with 2nd Lancers (Gardner's Horse), earning an official Appreciation Letter.
+- [Unified Mentor Internship](https://aarinmahala.vercel.app#work): Full Stack Developer intern building full-stack web applications with React, Node.js, and MongoDB.
+- [Vijay Kiran and Company](https://aarinmahala.vercel.app#work): Graphic Design Specialist & Account Handler for e-commerce photography and digital brand presence.
+- [Freelance Web Development](https://aarinmahala.vercel.app#work): Custom business web applications, portfolios, and SEO optimization.
+
+## Articles & Technical Guides
+
+- [API Design Principles](https://aarinmahala.vercel.app/blog/api-design-principles): Best practices for designing robust, developer-friendly REST APIs.
+- [Building Design Systems](https://aarinmahala.vercel.app/blog/building-design-systems): Guide to creating scalable, accessible design systems with React and Tailwind CSS.
+- [Next.js Performance Tips](https://aarinmahala.vercel.app/blog/nextjs-performance-tips): Techniques for optimizing Next.js applications for speed and SEO.
+- [Git Workflow Guide](https://aarinmahala.vercel.app/blog/git-workflow-guide): Effective Git branching strategies and collaboration workflows.
+- [Testing React Apps](https://aarinmahala.vercel.app/blog/testing-react-apps): Practical approach to testing modern React and Next.js applications.
+- [TypeScript Best Practices](https://aarinmahala.vercel.app/blog/typescript-best-practices): Writing clean, maintainable, and type-safe TypeScript code.
+
+## Optional
+
+- [Comprehensive AI Context](https://aarinmahala.vercel.app/llms-full.txt): Detailed background, full technical skills inventory, hackathons, and certifications for large-context LLMs.

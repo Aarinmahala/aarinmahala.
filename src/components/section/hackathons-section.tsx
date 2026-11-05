@@ -62,9 +62,10 @@ export default function HackathonsSection() {
                         key={idx}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`${hackathon.title} ${link.title}`}
                       >
                         <Badge className="flex items-center gap-1.5 text-xs bg-primary text-primary-foreground">
-                          {link.icon}
+                          <span aria-hidden="true">{link.icon}</span>
                           {link.title}
                         </Badge>
                       </Link>
