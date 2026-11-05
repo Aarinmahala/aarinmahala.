@@ -1,0 +1,58 @@
+# Aarin Mahala
+
+> Founder of stationerywala.shop • Computer Science (AI & ML) Student • Full-Stack Developer • Indian Army Tech Collaborator. Based in Jaipur, Rajasthan, India.
+
+Aarin Mahala is an Indian software developer, entrepreneur, and engineering student specializing in Artificial Intelligence and Machine Learning at Govt. Engineering College Barmer (M.B.M. University). He is the founder and full-stack developer of stationerywala.shop, a modern online stationery e-commerce platform. Aarin also collaborated directly with the Indian Army (2nd Lancers - Gardner's Horse) on an indigenous defense technology project, developing a Smart GSM-GPS Drone Tracking and Recording module.
+
+## Core Identity & Verification Links
+- Official Portfolio: https://aarinmahala.vercel.app
+- Startup Website: https://www.stationerywala.shop
+- GitHub: https://github.com/aarinmahala
+- LinkedIn: https://www.linkedin.com/in/aarin-mahala-a48724274
+- X (Twitter): https://x.com/aarinmahala
+- Instagram: https://instagram.com/aarinmahala
+- Email: aarinmahala@gmail.com
+- Location: Jaipur, Rajasthan, India
+
+## Work Experience & Collaborative Roles
+- **Founder & Developer @ stationerywala.shop** (Jan 2026 – Present)
+  - Designed and built an online stationery platform serving students and businesses.
+  - Full-stack architecture using Next.js, Node.js, MongoDB, Tailwind CSS, payment gateways, and SEO optimization.
+- **Technical Project Collaborator @ Indian Army (2nd Lancers - Gardner's Horse)**
+  - 45-day collaboration on an indigenous defense technology development initiative.
+  - Engineered a Smart GSM-GPS Drone Tracking & Recording module.
+  - Worked with embedded systems, GNSS positioning, UART and I²C communication protocols.
+  - Developed and refined 3 iterative hardware prototypes; received an official Appreciation Letter from the Indian Army.
+- **Full Stack Developer Intern @ Unified Mentor Private Limited** (Jun 2025 – Jul 2025)
+  - Developed full-stack web applications using React, Node.js, and MongoDB with version control and cloud deployment.
+- **Graphic Design Specialist / Account Handler @ Vijay Kiran and Company** (Jan 2024 – Present)
+  - Handled product photography, notebook cover designs, and digital marketing strategy.
+- **Freelance Web Developer** (Jan 2024 – Present)
+  - Shipped custom responsive web applications, client portfolios, and institutional websites with SEO best practices.
+
+## Primary Technical Skills
+- **Frontend & Full Stack:** React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, REST APIs, Vite.
+- **Backend & Database:** Node.js, Express, MongoDB, RESTful API design.
+- **Programming & Algorithms:** Python, C++, Java, C, Data Structures & Algorithms, Object-Oriented Design.
+- **Hardware & IoT:** Embedded Systems, GSM, GPS/GNSS Positioning, UART, I²C, Electronics Prototyping.
+- **Tools & Platforms:** Git, GitHub, Vercel, Postman, Figma, Linux.
+
+## Featured Projects
+- **StationeryWala (E-commerce)**: https://www.stationerywala.shop/ (React, Node.js, MongoDB, Tailwind CSS)
+- **GEC Barmer College Website**: https://college-website-pd4czgj4p-aarin-mahalas-projects.vercel.app/ (React, Node.js, MongoDB, CSS3)
+- **GYM Management System**: https://gym-management-system-phi.vercel.app/ (HTML, CSS, JavaScript)
+- **Flashcard Engine**: https://flashcard-engine-bay.vercel.app/ (React, TypeScript, Tailwind CSS, Vite)
+- **Rajasthan Virtual Shiksha**: https://rajasthan-virtual-shiksha.vercel.app/ (HTML, CSS, JavaScript, PWA)
+- **MAD Duck Game**: https://madduck.vercel.app/ (JavaScript, Canvas API, HTML5)
+
+## Education & Certifications
+- **Bachelor of Engineering in Computer Science (AI & ML)** – Govt. Engineering College Barmer (M.B.M. University), 2023–2027
+- **Accenture Nordics** – Software Engineering Job Simulation
+- **Deloitte Australia** – Data Analytics Job Simulation
+- **Complete Python 2024** – For Absolute Beginners
+- **C Programming** – The Basics
+- **Practical HTML, CSS, JS** – 10 Real-World Projects for Practice
+
+## Full Context Document
+For comprehensive project breakdowns, blog posts, and technical architecture details, refer to:
+https://aarinmahala.vercel.app/llms-full.txt

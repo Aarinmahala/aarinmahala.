@@ -27,11 +27,23 @@ export default function Page() {
   const [between, afterBlue] =
     hasGreen && hasBlue ? afterGreen.split(bluePhrase) : ["", ""];
   return (
-    <main className="min-h-dvh flex flex-col gap-14 relative">
+    <main
+      className="min-h-dvh flex flex-col gap-14 relative"
+      itemScope
+      itemType="https://schema.org/Person"
+    >
+      <meta itemProp="name" content={DATA.name} />
+      <meta itemProp="url" content={DATA.url} />
+      <meta itemProp="image" content={DATA.avatarUrl} />
+      <meta itemProp="jobTitle" content="Founder & Developer" />
+      <meta itemProp="addressLocality" content="Jaipur" />
+      <meta itemProp="addressRegion" content="Rajasthan" />
+      <meta itemProp="addressCountry" content="India" />
+
       <section id="hero" aria-labelledby="hero-title">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <h1 id="hero-title" className="sr-only">
-            Aarin Mahala – Founder of stationerywala.shop | Portfolio
+            Aarin Mahala – Founder of stationerywala.shop | Portfolio & Software Developer
           </h1>
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
             <div className="gap-2 flex flex-col order-2 md:order-1">
@@ -42,7 +54,10 @@ export default function Page() {
                 text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
-                <div className="text-muted-foreground max-w-[600px] md:text-lg lg:text-xl">
+                <div
+                  className="text-muted-foreground max-w-[600px] md:text-lg lg:text-xl"
+                  itemProp="description"
+                >
                   {hasGreen && hasBlue ? (
                     <>
                       {beforeGreen}

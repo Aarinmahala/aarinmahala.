@@ -10,6 +10,8 @@ import {
 import { DATA } from "@/data/resume";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import Markdown from "react-markdown";
+import { Badge } from "@/components/ui/badge";
 
 function LogoImage({ src, alt }: { src: string; alt: string }) {
   const [imageError, setImageError] = useState(false);
@@ -44,8 +46,21 @@ export default function WorkSection() {
               <div className="flex items-center gap-x-3 flex-1 min-w-0">
                 <LogoImage src={work.logoUrl} alt={work.company} />
                 <div className="flex-1 min-w-0 gap-0.5 flex flex-col">
-                  <div className="font-semibold leading-none flex items-center gap-2">
+                  <div className="font-semibold leading-none flex items-center gap-2 flex-wrap">
                     {work.company}
+                    {work.badges && work.badges.length > 0 && (
+                      <span className="inline-flex gap-1">
+                        {work.badges.map((badge) => (
+                          <Badge
+                            key={badge}
+                            variant="secondary"
+                            className="text-[10px] px-1.5 py-0 h-4 font-normal"
+                          >
+                            {badge}
+                          </Badge>
+                        ))}
+                      </span>
+                    )}
                     <span className="relative inline-flex items-center w-3.5 h-3.5">
                       <ChevronRight
                         className={cn(
@@ -71,13 +86,17 @@ export default function WorkSection() {
               </div>
               <div className="flex items-center gap-1 text-xs tabular-nums text-muted-foreground text-right flex-none">
                 <span>
-                  {work.start} - {work.end ?? "Present"}
+                  {work.start && work.end
+                    ? `${work.start} - ${work.end}`
+                    : work.start || work.end || "Present"}
                 </span>
               </div>
             </div>
           </AccordionTrigger>
           <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground">
-            {work.description}
+            <div className="prose dark:prose-invert max-w-full text-xs sm:text-sm text-muted-foreground font-sans leading-relaxed">
+              <Markdown>{work.description}</Markdown>
+            </div>
           </AccordionContent>
         </AccordionItem>
       ))}

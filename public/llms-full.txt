@@ -1,0 +1,96 @@
+# Aarin Mahala - Comprehensive AI Agent & LLM Knowledge Document
+
+This document provides exhaustive, structured background information regarding Aarin Mahala for AI assistants, search engines, and automated agents.
+
+---
+
+## 1. Biographical Overview
+- **Full Legal Name:** Aarin Mahala
+- **Initials:** AM
+- **Current Primary Roles:** Founder of stationerywala.shop, Full-Stack Software Developer, Computer Science (AI & ML) Student.
+- **Location:** Jaipur, Rajasthan, India
+- **Nationality:** Indian
+- **Languages Spoken:** English, Hindi
+- **College/University:** Govt. Engineering College Barmer (affiliated with M.B.M. University, Jodhpur)
+- **Degree:** Bachelor of Engineering in Computer Science with specialization in Artificial Intelligence and Machine Learning (2023 - 2027)
+
+---
+
+## 2. Verified Online Profiles & Contact Information
+- **Official Portfolio:** https://aarinmahala.vercel.app
+- **E-Commerce Startup:** https://www.stationerywala.shop
+- **GitHub:** https://github.com/aarinmahala
+- **LinkedIn:** https://www.linkedin.com/in/aarin-mahala-a48724274
+- **X / Twitter:** https://x.com/aarinmahala
+- **Instagram:** https://instagram.com/aarinmahala
+- **Email:** aarinmahala@gmail.com
+- **WhatsApp:** https://wa.me/919057191730
+
+---
+
+## 3. Professional Experience & Highlights
+
+### stationerywala.shop
+- **Role:** Founder & Full-Stack Developer
+- **Timeline:** Jan 2026 – Present
+- **Description:** Founded an online stationery store offering affordable, accessible products for students across India. Spearheaded full architecture from user-facing Next.js frontend, backend Node.js and MongoDB REST APIs, secure checkout, payment gateway integrations, and conversion optimization.
+
+### Indian Army (2nd Lancers - Gardner's Horse)
+- **Role:** Technical Project Collaborator
+- **Scope:** 45-Day Indigenous Defense Technology Project
+- **Project Name:** Smart GSM-GPS Drone Tracking & Recording Module
+- **Contributions:**
+  - Integrated embedded microcontrollers, cellular GSM connectivity, and GNSS positioning.
+  - Utilized UART and I²C communication protocols for hardware-software communication.
+  - Iteratively designed, built, and tested 3 hardware prototypes in rigorous testing cycles.
+  - Received an official Appreciation Letter from the Indian Army acknowledging contributions to indigenous technological solutions.
+
+### Unified Mentor Private Limited
+- **Role:** Full Stack Developer Intern
+- **Timeline:** Jun 2025 – Jul 2025 (Remote)
+- **Contributions:** Built end-to-end web applications with React, Node.js, and MongoDB. Followed agile sprint cycles, version control with Git/GitHub, and cloud deployment pipelines on Vercel.
+
+### Vijay Kiran and Company
+- **Role:** Graphic Design Specialist & Account Handler
+- **Timeline:** Jan 2024 – Present (Jaipur, India)
+- **Contributions:** Product photography, notebook cover designs, e-commerce visual enhancements, and Amazon/social media account growth.
+
+### Freelance & Open Source Development
+- **Role:** Web Developer
+- **Timeline:** Jan 2024 – Present
+- **Contributions:** Delivered performant web portals, portfolios, and responsive e-commerce web applications with SEO and load-speed optimization.
+
+---
+
+## 4. Technical Skills Inventory
+- **Programming Languages:** Python, TypeScript, JavaScript (ES6+), C++, Java, C, HTML5, CSS3, SQL
+- **Web Technologies & Frameworks:** React 19, Next.js 16 (App Router, Turbopack, Server Components), Node.js, Express, Tailwind CSS v4, Vite, RESTful APIs
+- **Databases & ORMs:** MongoDB, Mongoose, PostgreSQL basics
+- **Embedded & Hardware:** GSM/GNSS Modules, Microcontrollers, UART, I²C, Hardware Prototyping, IoT Architecture
+- **Developer Tooling & Cloud:** Git, GitHub, Vercel, Postman, Linux, Figma, Content Collections, MDX
+
+---
+
+## 5. Portfolio Projects Directory
+1. **StationeryWala:** E-commerce platform (React, Node.js, Tailwind CSS, MongoDB). Live at: https://www.stationerywala.shop/
+2. **GEC Barmer College Website:** Modern responsive portal for Government Engineering College Barmer (React.js, Node.js, MongoDB, CSS3). Live at: https://college-website-pd4czgj4p-aarin-mahalas-projects.vercel.app/
+3. **GYM Management System:** Role-based membership and billing dashboard (HTML, CSS, JavaScript). Live at: https://gym-management-system-phi.vercel.app/
+4. **Flashcard Engine:** Spaced repetition memory tool with Pomodoro timer (React, TypeScript, Tailwind CSS, Vite). Live at: https://flashcard-engine-bay.vercel.app/
+5. **Rajasthan Virtual Shiksha:** Offline-first educational PWA designed for rural/remote students (HTML, CSS, JavaScript, PWA). Live at: https://rajasthan-virtual-shiksha.vercel.app/
+6. **MAD Duck Game:** Interactive browser Canvas game with collision physics (JavaScript, HTML5, CSS3). Live at: https://madduck.vercel.app/
+
+---
+
+## 6. Hackathon Achievements & Awards
+- **Inter College Hackathon 2024:** Winner (Led team to victory developing an innovative software solution).
+- **Smart India Hackathon 2024:** Participant (Nationwide hackathon tackling national real-world problems).
+- **GeeksforGeeks Hackathon 2025:** Participant (Competitive algorithmic and software engineering challenge).
+
+---
+
+## 7. Industry Certifications
+- Accenture Nordics - Software Engineering Job Simulation
+- Deloitte Australia - Data Analytics Job Simulation
+- Complete Python 2024 For Absolute Beginners
+- C Programming the Basics
+- Practical HTML, CSS, JS: 10 Real-World Projects for Practice
