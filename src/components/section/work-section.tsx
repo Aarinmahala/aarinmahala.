@@ -86,9 +86,7 @@ export default function WorkSection() {
               </div>
               <div className="flex items-center gap-1 text-xs tabular-nums text-muted-foreground text-right flex-none">
                 <span>
-                  {work.start && work.end
-                    ? `${work.start} - ${work.end}`
-                    : work.start || work.end || "Present"}
+                  {work.end ? `${work.start} - ${work.end}` : work.start}
                 </span>
               </div>
             </div>
